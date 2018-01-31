@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/api/Mpc.MyRace.PresentationApi/bin/Debug/netcoreapp2.0/Mpc.MyRace.PresentationApi.dll",
+            "program": "${workspaceFolder}/1.1 - Presentation/Mpc.MyRace.PresentationApi/bin/Debug/netcoreapp2.0/Mpc.MyRace.PresentationApi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/api/Mpc.MyRace.PresentationApi",
+            "cwd": "${workspaceFolder}/1.1 - Presentation/Mpc.MyRace.PresentationApi",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {

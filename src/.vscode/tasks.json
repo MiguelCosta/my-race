@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/api/Mpc.MyRace.PresentationApi/Mpc.MyRace.PresentationApi.csproj"
+                "${workspaceFolder}/1.1 - Presentation/Mpc.MyRace.PresentationApi/Mpc.MyRace.PresentationApi.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
