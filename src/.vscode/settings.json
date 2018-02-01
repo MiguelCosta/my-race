@@ -1,5 +1,6 @@
 {
     "csharpfixformat.style.braces.onSameLine": false,
+    "csharpfixformat.style.spaces.beforeParenthesis": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true
 }

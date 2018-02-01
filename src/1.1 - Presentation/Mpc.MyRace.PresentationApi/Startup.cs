@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Mpc.MyRace.Data.Repository.DependenciesConfiguration;
+using Mpc.MyRace.Data.Repository.Models;
 
 namespace Mpc.MyRace.PresentationApi
 {
@@ -23,6 +25,7 @@ namespace Mpc.MyRace.PresentationApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigurationRepository(this.Configuration);
             services.AddMvc();
         }
 
