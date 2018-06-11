@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>daa73186-5f8e-4018-9872-4a5d1191e31d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mpc.MyRace.Application.Dto\Mpc.MyRace.Application.Dto.csproj" />
+    <ProjectReference Include="..\Mpc.MyRace.Application.Services\Mpc.MyRace.Application.Services.csproj" />
+  </ItemGroup>
+
+</Project>

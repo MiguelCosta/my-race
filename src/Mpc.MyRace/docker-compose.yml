@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mpc.myrace.api:
+    image: ${DOCKER_REGISTRY}mpcmyraceapi
+    build:
+      context: .
+      dockerfile: Mpc.MyRace.Api/Dockerfile
